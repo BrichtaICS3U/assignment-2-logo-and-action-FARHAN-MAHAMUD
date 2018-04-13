@@ -6,7 +6,8 @@
 
 # Import the pygame library and initialise the game engine
 # Don't forget to import your class
-import pygame
+import pygame, random
+from Projectile_Class import Projectile
 pygame.init()
 
 # Define some colours
@@ -15,6 +16,12 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
+YELLOW = (243, 247, 0)
+LIGHTBLUE = (166, 249, 252)
+YELLOW = (249, 255, 91)
+PURPLE = (50, 0, 153)
+
+colorList = (BLACK, WHITE, LIGHTBLUE, YELLOW, PURPLE)
 
 # Set the screen size
 SCREENWIDTH = 400
