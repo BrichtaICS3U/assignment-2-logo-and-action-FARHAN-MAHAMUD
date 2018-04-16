@@ -15,7 +15,7 @@ class Projectile(pygame.sprite.Sprite):
         self.color = color
         self.speed = speed
 
-        pygame.draw.elipse(self.image, color, [0, 0, widht, height], 0)
+        pygame.draw.elipse(self.image, color, [0, 0, width, height], 0)
 
         self.rect = self.image.get_rect()
 
